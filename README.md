@@ -1,5 +1,5 @@
 # standard_JIT_project_template
-A template for standard projects. Serves as a minimal example for [TORCH.UTILS.CPP_EXTENSION](https://pytorch.org/docs/stable/cpp_extension.html#torch-utils-cpp-extension) following the structure of [DirectVoxGO](https://github.com/sunset1995/DirectVoxGO).
+A template for standard JIT projects. Serves as a minimal example for [TORCH.UTILS.CPP_EXTENSION](https://pytorch.org/docs/stable/cpp_extension.html#torch-utils-cpp-extension) following the structure of [DirectVoxGO](https://github.com/sunset1995/DirectVoxGO).
 
 ## Setup
 
