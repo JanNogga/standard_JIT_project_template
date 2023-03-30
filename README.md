@@ -4,9 +4,12 @@ A template for standard projects.
 ## Setup
 
 1. Clone this repository.
+```console
+git clone https://github.com/JanNogga/standard_JIT_project_template.git
+```
 2. Build the docker image.
 ```console
-./build.sh
+cd standard_JIT_project_template/docker && chmod +x build.sh && chmod +x run.sh && ./build.sh
 ```
 3. Run a container.
 ```console
