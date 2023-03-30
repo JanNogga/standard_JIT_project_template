@@ -15,18 +15,11 @@ cd standard_JIT_project_template/docker && chmod +x build.sh && chmod +x run.sh 
 ```console
 ./run.sh
 ```
-4. (Optional) For quick prototyping setup jupyter notebook in the container.
+4. In the container, switch to this repository.
 ```console
-jupyter notebook password
+cd module_name/
 ```
+5. Finally run the dummy code. The cuda kernel defined in *lib/cuda* is compiled just-in-time.
 ```console
-cd /repos
+run.py
 ```
-```console
-jupyter notebook --no-browser --ip 0.0.0.0 --port 9999 &
-```
-Then connect to the machine hosting the container, for example using:
-```console
-ssh -L 9999:localhost:9999 -J USER@login-stud/staff.informatik.uni-bonn.de USER@cudaX
-```
-The notebook is now available locally at [http://localhost:9999/](http://localhost:9999/).
