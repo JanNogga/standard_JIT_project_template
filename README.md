@@ -21,5 +21,5 @@ cd module_name/
 ```
 5. Finally run the dummy code. The cuda kernel defined in *lib/cuda* is compiled just-in-time.
 ```console
-run.py
+python run.py
 ```
